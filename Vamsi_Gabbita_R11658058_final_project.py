@@ -95,7 +95,7 @@ def get_next_status(process_id: int, old_matrix: list, indices: list, output) ->
 
 
 def run(old_matrix: list, row_count: int, col_count: int, process_count: int) -> list:
-    """Find next time period matrix"""
+    """Find next time period matrix."""
     # init new matrix
     new_matrix = [["-" for _ in range(col_count)] for _ in range(row_count)]
     processes = []
